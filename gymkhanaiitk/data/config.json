@@ -1,0 +1,10 @@
+{
+	"components" : [
+		"cover",
+		"about",
+		"council",
+		"cell",
+		"preamble",
+		"fest"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"title" : "Students' Gymkhana ",
+	"description" : "Indian Institute of Technology  Kanpur",
+	"illustration" : "freelancing.svg",
+
+	"alt_href" : "#council",
+	"button" : {
+		"text" : "Contact",
+		"href" : "contact"
+	}
+}

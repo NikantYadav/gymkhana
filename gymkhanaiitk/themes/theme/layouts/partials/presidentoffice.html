@@ -1,0 +1,31 @@
+{{ $presidentoffice:= .Site.Data.presidentoffice }}
+{{ $title := $presidentoffice.title }}
+{{ $description := $presidentoffice.description }}
+<section id="presidentoffice" class="py-5">
+	<div class="container" >
+		<h2 style="font-size:45px" class=" h1">{{ $title }}</h2>
+		<div>
+		{{ range $presidentoffice.description }}
+    			<p>{{ .description}}</p>
+    		{{ end }}
+		</div>
+		<div>
+			<div class="container">
+				<div class="row">
+					<div class = "col-md-9">
+						<div>
+							{{ range $presidentoffice.moredescription }}
+    							<p>{{ .moredescription}}</p>
+    							{{ end }}
+						</div>
+					</div>
+					<div class = "col-md-3">
+						<div>
+		
+					</div>
+				</div> 
+			</div>
+		</div>
+		
+	</div>
+</section>

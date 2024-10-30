@@ -1,0 +1,22 @@
+{
+    "title":"Mentorship Program",
+    "logo1":"councils/anc.webp",
+    "logo2":"cell/outreach.webp",
+    "descriptions": [{"description":"Alumni mentorship program for pre-final year B.Tech/BS students to enable the creation of meaningful long-term connections with the Alumni helping the students with their guidance to navigate through times of uncertainty, ultimately allowing them to make an informed career choice. The program will be run by the Students’ Gymkhana with the support from AA board members Ms. Apoorva Khandelwal and Ms. Smita Hashim. It seeks to enhance the career awareness of the mentees so that they are better equipped to find off-campus applications, go for MBA/MS/Ph.D., and/or jobs that match their goals and interests."},
+{"title":"Structure of the Program","description":"The proposed piloting with a single cohort focusing on Corporate career mentorship with domain specific subgroups.\n\nThis cohort (Corporate career mentorship) would involve a  mentor being mapped to 3-4 mentees according to the domain of interest. If possible later we will be combining 3 mentors from a similar background into one big group with 10 students as their mentees. \n\nWhile, later cohorts would be focused on Higher Education and Academia where people with similar interests and aspirations can come together and ask for help as required from the mentors in the respective fields."}],
+    
+"mentorshipTimeline":{"title":"Timeline",
+    "timeline":[{"description":"Release of registration forms in alumni and student community:",
+        "date":"22nd August"},
+        {"description":"Matching of alumni and students (in the ratio of 1:3): ",
+            "date":"Late August"},
+        {"description":"Introduction and launch of mentorship program:",
+            "date":"Start of September"},
+        {"description":"First feedback and reshuffling:",
+            "date":"1st Week of October"},
+        {"description":"Second Feedback:",
+            "date":"1st week of September"},
+        {"description":"Mock Interviews (in collaboration with Outreach Cell’s Mock en Joy:",
+            "date":"November"}]}
+    
+}

@@ -1,0 +1,16 @@
+{
+  "contact" : [
+    {
+      "name" : "Rohit Kejriwal",
+      "image" : "Rohit_Kejriwal.jpg",
+      "position": "President ",
+      "council" :"Students' Gymkhana",
+      "phone": "+91-9521119361",
+      "mail":"presidentsg@iitk.ac.in",
+      "social": {
+        "facebook" : "https://www.facebook.com/rohitkej",
+        "linkedin" : "http://linkedin.com/in/rohit-kejriwal"
+      }
+    }
+  ]
+}

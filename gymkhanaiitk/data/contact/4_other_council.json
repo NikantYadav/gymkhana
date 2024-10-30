@@ -1,0 +1,41 @@
+{
+  "contact" : [
+     {
+      "name" : "Animesh Singh",
+      "image" : "Animesh_Singh.jpg",
+      "position": "General Secretary",
+      "council": "Games and Sports" ,
+      "phone": "+91-9999872212",
+      "mail":"sportsecy@iitk.ac.in",
+      "social": {
+        "facebook" : "https://www.facebook.com/profile.php?id=100039730101566"
+      }
+    },
+    {
+      "name" : "Ghanshyam Waindeshkar",
+      "image" : "Ghanshyam_Waindeshkar.jpeg",
+      "position": "General Secretary ",
+      "council": "Media and Cultural" ,
+      "phone": "+91-7225044579",
+      "mail":"mncsecy@iitk.ac.in",
+      "social": {
+        "facebook" : "https://www.facebook.com/Ghanshyam2505",
+
+        "linkedin" : "http://linkedin.com/in/ghanshyamw"
+      }
+    },
+    {
+      "name" : "Som Tambe",
+      "image" : "Som_Tambe.jpeg",
+      "position": "General Secretary",
+      "council": "Science and Technology " ,
+      "phone": "+91-7506042942",
+      "mail":"sntsecy@iitk.ac.in",
+      "social": {
+        "facebook" : "https://www.facebook.com/tambesom",
+        "linkedin" : "http://linkedin.com/in/somvt"
+      }
+    }
+
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "title" : "General Championship",
+  "description" : "IIT Kanpur has a rich hostel culture where students residing in  different  halls  compete  against  each  other  to  win  the  General Championship.",
+  "activemembers" :[
+  	{
+      
+      "title" : "Galaxy",
+      "officialwebsite" : "#",
+      "description" : "The most awaited event of the year, Galaxy brings out the hall rivalries as students battle it out in various cultural activities such as dance, music, fine arts, literature, etc. It instills the real sense of competition into the participants and sets everyone’s spirits high. "
+      
+    }
+  ],
+  "members" : [
+    
+    {
+      
+      "title" : "Takneek",
+      "officialwebsite" : "#",
+      "description" : "It  is  organized  annually  where  students  no  matter  UG  or  PG  compete  for  the  glory  of  their  hall  in  robotics,  electronics,  astronomy, coding etc. It is a platform to sharpen the technical skills of the students"
+      
+    },
+    {
+      
+      "title" : "Inferno",
+      "officialwebsite" : "#",
+      "description" : "It  is  a  power-packed  event  that  brings  out  the  best  in  all  the  sports enthusiasts in the campus. The entire campus turns out to cheer their respective teams. The event also serves as a talent hunt for the institute teams."
+      
+    }
+  ]
+
+}

@@ -1,0 +1,100 @@
+{{ $cell := .Site.Data.cell }}
+<section id="team" class="text-center py-5">
+<div class ="large">
+  <div class="container-fluid">
+    <h2 style="font-size:45px" class=" h1">{{ $cell.title }}</h2>  
+    <p class="text-muted pb-5">{{ $cell.description }}</p>
+
+    <div class="members row justify-content-md-center mt-1">
+    {{ range $cell.activemembers }}
+        <div class="col-12 col-lg-2 col-md-2 col-sm-2 mb-4">
+        <a href="{{ .officialwebsite }}" target="_blank" rel="noopener">
+          <img class="mb-3 teamAvatar shadow" src="{{.Site.BaseURL}}images/cell/{{.avatar }}" alt="{{ .name }}" aria-label="{{ .name }}">
+        </a>
+          <h4 class="h4">{{ .name }}</h4>
+          <div class="text-muted">{{ .description }}</div>
+          
+        </div>
+      {{ end }}
+      {{ range $cell.members }}
+        <div class="col-12 col-lg-2 col-md-2 col-sm-2 mb-4">
+        <a href="{{ .officialwebsite }}" target="_blank" rel="noopener">
+          <img class="mb-3 teamAvatar shadow" src="{{.Site.BaseURL}}images/cell/{{.avatar }}" alt="{{ .name }}" aria-label="{{ .name }}">
+        </a>
+          <h4 class="h4">{{ .name }}</h4>
+          <div class="text-muted">{{ .description }}</div>
+          
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+<div id = "team" class ="small">
+<div class="container">
+    <h2 style="font-size:45px" class=" h1">{{ $cell.title }}</h2>  
+    <p class="text-muted pb-5">{{ $cell.description }}</p>
+	<div id="cells" class="carousel slide" data-ride="carousel">
+  
+  		<div class="carousel-inner">
+  
+    			<div class="carousel-item active">
+      			{{ range $cell.activemembers }}
+      				<center>
+      					<a href="{{ .officialwebsite }}" target="_blank" rel="noopener">
+          					<img class="mb-3 teamAvatar shadow rounded-circle" src="{{.Site.BaseURL}}/gymkhana/images/cell/{{.avatar }}" alt="{{ .name }}" width="200" height="200" aria-label="{{ .name }}">
+        				</a>
+          				<h4 class="h4">{{ .name }}</h4>
+          				<div class="text-muted">
+          					{{ .description }}
+          				</div>
+          			</center>
+          		{{end}}
+    			</div>
+    			{{ range $cell.members }}
+    			<div class="carousel-item">
+    				<center>
+    					<a href="{{ .officialwebsite }}" target="_blank" rel="noopener" aria-label="{{ .name }}">
+      						<img class="mb-3 teamAvatar shadow rounded-circle" src="{{.Site.BaseURL}}/gymkhana/images/cell/{{.avatar }}" alt="{{ .name }}" width="200" height="200">
+        				</a>
+          				<h4 class="h4">{{ .name }}</h4>
+          				<div class="text-muted">
+          					{{ .description }}
+          				</div>
+          			</center>
+    			</div>
+    			{{end}}
+		</div> 
+  		<a class="carousel-control-prev" href="#cells" role="button" data-slide="prev">
+    			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Previous</span>
+  		</a>
+  		<a class="carousel-control-next" href="#cells" role="button" data-slide="next">
+   			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+   			<span class="sr-only">Next</span>
+  		</a>
+		
+	</div>
+</div>
+</div>
+</section>
+<style>
+	 /* Check if the screen size is at least 600px */ 
+        @media only screen and (max-width: 768px) { 
+            .large { 
+                display: none; 
+            } 
+        } 
+  
+    
+        /* check if the screen size is at least 100px */ 
+        @media only screen and (min-width: 768px) { 
+            .small { 
+                display: none; 
+            } 
+        } 
+        .carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+</style>

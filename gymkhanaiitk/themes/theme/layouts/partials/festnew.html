@@ -1,0 +1,140 @@
+{{ $fest := .Site.Data.fest }}
+{{ $title := $fest.title }}
+{{ $description := $fest.description }}
+<section id="fest" class="py-5 bg-light">
+	<div class="container" >
+		<div class ="row">
+			<div class ="col-12">
+				<h2 style="font-size:45px" class=" h1 text-center">{{ $title }}</h2>
+			
+			{{ range $fest.description }}
+    				<p>{{ .description}}</p>
+    			{{ end }}
+			</div>
+		</div>
+		
+	</div>
+	
+	<div class="container" style ="padding-top:20px;">
+
+    <div class="row">
+    
+      <div class="col-lg-12 col-12">
+          
+              {{ range $fest.content }}
+              <div class="row features bg-white shadow p-3 mb-3 rounded">
+                  <div class="col-lg-2 col-12">
+                    <div ><a href="{{ .officialwebsite }}" target="_blank" rel="noopener" aria-label="{{ .title }}">
+                    <img src="{{ .Site.BaseURL }}../images/fest/{{ .logo }}" class="rounded-circle" width="150" height="150" style =" -moz-box-shadow: 0px 6px 5px #ccc;
+  -webkit-box-shadow: 0px 6px 5px #ccc;
+  box-shadow: 0px 6px 5px #ccc;
+  -moz-border-radius:190px;
+  -webkit-border-radius:190px;
+  border-radius:190px;" alt="{{ .title }}">
+  </a>
+  </div>
+                  </div>
+                  <div class="col-10 feststyle" style="">
+                  	<h4 class="h4">{{ .title }}</h4>                      
+                      <p style="font-size:15px;" class="text-muted">{{ .description }}</p>
+                  </div>
+                </div>
+              {{end}}
+           
+      </div>
+    </div>
+  </div>
+  	
+</section>
+
+
+<style type="text/css">
+
+        /* Check if the screen size is at least 600px */ 
+        @media only screen and (max-width: 768px) { 
+            .larges { 
+                display: none; 
+            }
+            .feststyle {
+            	padding-top:20px;
+            } 
+        } 
+  
+    
+        /* check if the screen size is at least 100px */ 
+        @media only screen and (min-width: 768px) { 
+            .smalls { 
+                display: none; 
+            }
+            .feststyle {
+            	padding-left:50px;
+            } 
+        } 
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+@media (min-width: 768px) {
+  /* show 3 items */
+  .carousel-inner .active,
+  .carousel-inner .active + .carousel-item,
+  .carousel-inner .active + .carousel-item + .carousel-item {
+    display: block;
+  }
+
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+    transition: none;
+  }
+
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+    position: relative;
+    transform: translate3d(0, 0, 0);
+  }
+
+  .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+    position: absolute;
+    top: 0;
+    right: -33.3333%;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+
+  /* left or forward direction */
+  .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+  .carousel-item-next.carousel-item-left + .carousel-item,
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+    position: relative;
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  /* farthest right hidden item must be abso position for animations */
+  .carousel-inner .carousel-item-prev.carousel-item-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+
+  /* right or prev direction */
+  .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+  .carousel-item-prev.carousel-item-right + .carousel-item,
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+    position: relative;
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+    display: block;
+    visibility: visible;
+  }
+}
+
+
+</style>

@@ -1,0 +1,49 @@
+{
+  "brand" : "Students' Gymkhana",
+  
+  "logoSrc" : "/website/logo.webp",
+  "links" : [
+    {
+      "title" : "Home",
+      "href" : ""
+    },
+    {
+      "title" : "About",
+      "href" : "#about"
+    },
+    {
+      "title" : "Councils",
+      "href" : "councils"
+    },
+    {
+      "title" : "Cells",
+      "href" : "cells"
+    },
+    {
+      "title" : "Fests",
+      "href" : "fest"
+    },
+    {
+      "title" : "Students' Senate",
+      "href" : "students-senate"
+    },
+    {
+      "title" : "Mentorship",
+      "href" : "mentorship"
+    },
+    {
+      "title" : "Constitution",
+      "href" : "https://students.iitk.ac.in/ss/home/constitution/",
+      "external": "yes"
+    },
+    {
+      "title" : "Complaint Form",
+      "href" : "/complaint-form",
+      "external" : "yes"
+    },
+    {
+      "title" : "Contact",
+      "href" : "contact"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "contact" : [
+    {
+      "name" : "Sanidhya Rathore",
+      "image" : "Sanidhya_Rathore.jpg",
+      "position": "Chairperson ",
+      "council" :"Students' Senate",
+      "phone": "+91-9977008969",
+      "mail":"chair_ss@iitk.ac.in",
+      "social": {
+        "facebook" : "https://www.facebook.com/sanidhya.rathore",
+        "linkedin" : "http://linkedin.com/in/sanidhya-rathore-223a8b196"
+
+      }
+    }
+  ]
+}

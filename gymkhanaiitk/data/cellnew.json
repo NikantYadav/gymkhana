@@ -1,0 +1,45 @@
+{
+  "title" : "Cells",
+  "description" : "",
+   "content" : [
+    
+    {
+      "logo" : "cwc.webp",
+      "title" : "Community Welfare Cell",
+      "officialwebsite" : "https://cwciitk.wordpress.com/",
+      "description" : "The Community Welfare Cell is a body under the Students’ Gymkhana, Indian Institute of Technology, Kanpur. The realm of ‘Community’ for the Cell includes students, faculty, staff members of the campus, the workers and their families, and any and all individuals who are related to the campus. It is to this community that the Cell finds itself morally accountable. In a larger setup and a farther vision, the Cell shall try to realize the responsibilities of the institute with respect to the city of Kanpur."
+    },
+    {
+      "logo" : "ec.webp",
+      "title" : "Election Commission",
+      "officialwebsite" : "https://students.iitk.ac.in/ec/",
+      "description" : "The Students' Gymkhana, IIT Kanpur works through a system of democracy upheld through Gymkhana elections. Election Commission ensure a fair and smooth, end to end conduction of the Mid-Term Elections, the General Elections, HEC Elections etc."
+    },
+    {
+      "logo" : "ecell.webp",
+      "title" : "Entrepreneurship Cell",
+      "officialwebsite" : "https://www.ecelliitk.org/",
+      "description" : "E-Cell, IIT Kanpur aims to induce an entrepreneurial mindset into the students and air an innovative streak in them. We are here to water the ‘Ideas’ in the bud and help them bloom into impactful endeavors through networking student enterprises from campus to incubators, seeding funds and angel investors to transform the newly proposed ideas into successful start-ups."
+    },
+    {
+      "logo" : "outreach.webp",
+      "title" : "Outreach Cell",
+      "officialwebsite" : "https://students.iitk.ac.in/outreach-cell/",
+      "description" : "Outreach Cell is the Students' Gymkhana body that works in collaboration with the Dean of Resources and Alumni, IIT Kanpur. We contribute to the crucial avenues of strengthening student-alumni relations, publicizing achievements of IIT Kanpur and organizing outreach programs in IIT Kanpur. We organize talks and networking programs for career guidance and mentorship for developing student-alumni relations. We also conceptualize and execute various campaigns such as #ThatsIITK, #AskIITK for prospective students."
+    },
+    {
+      "logo" : "ppoc.jpg",
+      "title" : "Public Policy and Opinion Cell",
+      "officialwebsite" : "",
+      "description" : "Public Policy and Opinion Cell at IIT Kanpur brings global events into valuable perspective. We aim to provide our members with first-class exposure to world leaders, policymakers, historians and the frontier of Economics for years. We are the only student-run public-policy cell among the 23 IITs nationwide. We aim to engage students in discussions on issues of social, economic, political and historical significance and expose them to the challenges of policy making, encouraging them to pursue careers in the field of public policy and governance."
+
+    },
+    {
+      "logo" : "vox.webp",
+      "title" : "Vox Populi",
+      "officialwebsite" : "https://voxiitk.com/",
+      "description" : "Vox is the student media body of IIT Kanpur. We aim to be the voice of campus community, and act as a bridge between faculty, students, alumni and other stakeholders of IIT Kanpur. "
+    }
+   
+  ]
+}

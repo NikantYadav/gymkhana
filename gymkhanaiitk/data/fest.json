@@ -1,0 +1,32 @@
+{
+  "title" : "Fests",
+  "description" : [
+  	{
+  		"description" : "The festivals shall primarily be organized for the students of the Institute, to provide opportunities for participation in extracurricular activities at the intercollegiate level, to provide interaction with students from outside the Institute and to inculcate independent organizational skill, and shall secondarily be organized for the faculty, staff and residents of the Institute."
+  	},
+  	{
+  		"description" : "The basic motto of all festivals shall be to encourage the spirit of competition and the spirit of participation amongst the students’ community of the Institute. The Gymkhana shall annually organize three inter-collegiate Gymkhana festivals namely :"
+  	}
+  ],
+   "content" : [
+    
+    {
+      "logo" : "antaragni.webp",
+      "title" : "Antaragni - Cultural Festival",
+      "officialwebsite" : "https://antaragni.in/",
+      "description" : "Antaragni is the annual cultural festival of IIT Kanpur and one of the largest and most awaited across Asia. It literally translates into ‘The Fire Within’, which every person associated is sure to feel within themselves. With 55 rich years behind it, Antaragni embodies the passion and desire of the students of IIT Kanpur and the whole of India to showcase and celebrate amazing cultural talent. It has been the benchmark of the college cultural scene of India, being the launchpad for some very successful names. Apart from competitive events and illuminating talks it hosts some amazing performances by artists of international standing which mesmerise the 130,000-strong footfall. Each year it grows in scope to reflect the changing cultural landscape of society, but the only constant is that it remains the four best days of the year for everyone who is part of it."
+    },
+    {
+      "logo" : "techkriti.webp",
+      "title" : "Techkriti - Technical & Entrepreneurial Festival",
+      "officialwebsite" : "https://techkriti.org/",
+      "description" : "Techkriti is the annual inter-collegiate Technical and Entrepreneurship festival organised by the students of IIT Kanpur. Techkriti was launched in 1995 with the aim of developing interest and encouraging innovation in technology among students of India. Techkriti hosts a plethora of Competitions, Exhibitions, Lectures and Shows. In its twenty second edition, Techkriti has evolved and grown, fulfilling its purpose and becoming one of the most eagerly-awaited college technical festivals in Asia. Now, schools are also a part of this extravaganza with the introduction of a new event called \"TOSC\" (Techkriti Open School Championship)"
+    },
+    {
+      "logo" : "udghosh.webp",
+      "title" : "Udghosh - Sports Festival",
+      "officialwebsite" : "http://www.udghosh.org/",
+      "description" : "Udghosh is the annual sports festival of IIT Kanpur, held each year in October. Over the years Udghosh has evolved and expanded to become the biggest inter-collegiate sports extravaganza in India. Being one of the most eagerly awaited events of the year, it is a national platform where the youth of the nation get together, interact and indulge in a fair play. Udghosh witnesses participation from students from over 200 colleges from all over India. Students from all fields i.e., “ humanities, engineering, science, commerce, law and medicine participate in the event with great gusto. A footfall of over 30,000 is witnessed during the festival."
+    }
+  ]
+}

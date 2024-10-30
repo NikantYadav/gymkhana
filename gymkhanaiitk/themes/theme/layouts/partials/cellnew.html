@@ -1,0 +1,63 @@
+{{ $cellnew := .Site.Data.cellnew }}
+<section id="cell" class=" bg-light py-5">
+  <div class="container text-center">
+    <h2 style="font-size:45px" class=" h1">{{ $cellnew.title }}</h2>  
+    <p class="text-muted pb-5">{{ $cellnew.description }}</p>
+   </div>  
+    <div class="container" >
+
+    <div class="row">
+    
+      <div class="col-lg-12 col-12">
+          
+              {{ range $cellnew.content }}
+              <div class="row features bg-white shadow p-3 mb-3 rounded">
+                  <div class="col-lg-2 col-12">
+                    <div ><a href="{{ .officialwebsite }}" target="_blank" rel="noopener" aria-label="{{ .title }}">
+                    <img src="{{ .Site.BaseURL }}../images/cell/{{ .logo }}" class="rounded-circle" width="150" height="150" style =" -moz-box-shadow: 0px 6px 5px #ccc;
+  -webkit-box-shadow: 0px 6px 5px #ccc;
+  box-shadow: 0px 6px 5px #ccc;
+  -moz-border-radius:190px;
+  -webkit-border-radius:190px;
+  border-radius:190px;" alt="{{ .title }}">
+  </a>
+  </div>
+                  </div>
+                  <div class="col-10 feststyle" style="">
+                  	<h4 class="h4">{{ .title }}</h4>                      
+                      <p style="font-size:15px;" class="text-muted">{{ .description }}</p>
+                  </div>
+                </div>
+              {{end}}
+           
+      </div>
+    </div>
+  </div>
+  	
+</section>
+<style>
+	 /* Check if the screen size is at least 600px */ 
+        @media only screen and (max-width: 768px) { 
+            .larges { 
+                display: none; 
+            }
+            .feststyle {
+            	padding-top:20px;
+            } 
+        } 
+  
+    
+        /* check if the screen size is at least 100px */ 
+        @media only screen and (min-width: 768px) { 
+            .smalls { 
+                display: none; 
+            }
+            .feststyle {
+            	padding-left:50px;
+            } 
+        } 
+        .carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+</style>

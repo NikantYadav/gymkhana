@@ -1,0 +1,9 @@
+{
+    "title" : "Students' Gymkhana",
+    "description" : "Indian Institute of Technology Kanpur",
+    "images" : ["1.jpg", "2.jpg", "3.jpg"],
+    "button" : {
+        "text" : "Contact Us",
+        "href" : "contact"
+    }
+}

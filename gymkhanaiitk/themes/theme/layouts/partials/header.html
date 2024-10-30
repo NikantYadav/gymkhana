@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>
+ 			{{ .Title }} {{ if ne .Title .Site.Title }} &middot; {{ .Site.Title }}{{ end }}
+    </title>
+    <meta charset="utf-8">
+    <link rel="canonical" href="{{ .Permalink }}">
+    <meta name="robots" content="index,follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="iitklogo.png" rel="icon" />
+
+    <!-- og -->
+    <meta name="og:title" content="{{ .Title }}"/>
+	<meta name="og:url" content="{{ .Permalink }}"/>
+	{{ if .Params.featuredimage }}
+	<meta name="og:image" content="{{ .Params.featuredimage | absURL}}"/>
+	{{ end }}
+	{{ if .Params.description }}
+	<meta name="og:description" content="{{ .Params.description }}"/>
+	{{ end }}
+	<meta name="og:site_name" content="{{ .Site.Title }}"/>
+	<meta name="Description" content="The Students' Gymkhana is the students' government organization of IIT Kanpur. Established in 1962, the Gymkhana seeks to cultivate leadership qualities amongst students to foster a corporate life and advance the general cause of the institute's student body.">
+
+    <!-- including bootstrap -->
+    
+  
+    <!-- <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}css/style.css"> -->
+    {{ $sass := resources.Get "/scss/bootstrap.scss" }}
+    {{ $style := $sass | resources.ToCSS | resources.Minify}}
+    <link rel="stylesheet" tyoe ="text/css" href="{{ $style.Permalink }}">
+  </head>
+  <body>
+    

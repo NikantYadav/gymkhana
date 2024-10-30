@@ -1,0 +1,36 @@
+{
+  "title" : "Students’ Senate",
+  "chairpersonname" : "Kartikeya Dhakad",
+  "chairpersonimg" : "Kartikeya_Dhakad.jpg",
+  "description" : [
+  	{
+  		"description" : "The Students’ Senate is an elected student representative body composed of Senators (batch representatives) elected from each batch and the five Gymkhana executives. It keeps a check on the functioning of the executive wings and functions as the central policy making body."
+  	},
+  	{
+  		"description" : "The Senate lays down the guidelines for the functions of the executives, their associated councils, the Gymkhana Festivals and other matters pertaining to the Student body at large. The Students' Senate has a say in the policy and decision making bodies of the institute. The Senate acts on many important issues pertaining to students at IIT Kanpur, some of which are:"
+  	}
+  ],
+  "listdescription" : [
+  	{
+  		"listdescription" : "Institute Education Policy"
+  	},
+  	{
+  		"listdescription" : "Hostels"
+  	},
+  	{
+  		"listdescription" : "Gymkhana Festivals"
+  	},
+  	{
+  		"listdescription" : "Security and Health"
+  	},
+  	{
+  		"listdescription" : "And anything that relates to student life"
+  	}
+  ],
+  "moredescription" : [
+  	{
+  		"moredescription" : "On all issues, Students’ Senate serves as the forum of expression for the students and the decisions of the Senate represent the voice of the students at all forums."
+  	}
+  ]
+ 
+}

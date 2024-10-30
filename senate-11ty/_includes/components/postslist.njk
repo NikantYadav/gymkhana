@@ -1,0 +1,11 @@
+<div class="card-grid">
+  {% for post in posts %}
+    <div class="card">
+      <h3 class="card__title">
+        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+      </h3>
+      <p class="card__date">{{ post.date | readableDate }}</p>
+      <p class="card__description">{{ post.data.description }}</p>
+    </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,27 @@
+{
+  "contact" : [
+    {
+      "name" : "Manit Ajmera",
+      "image" : "Manit_Ajmera.jpg",
+      "position": "UG General Secretary ",
+      "council": "Academics and Career ",
+      "phone": "+91-8120824189",
+      "mail":"ug_anc@iitk.ac.in",
+      "social": {
+        "facebook" : "https://www.facebook.com/manitajm",
+        "linkedin" : "http://linkedin.com/in/manit-ajmera"
+      }
+    },
+    {
+      "name" : "Khushbu Kishnani",
+      "image" : "Khushbu_Kishnani.jpg",
+      "position": "PG General Secretary",
+      "council": "Academics and Career ",
+      "phone": "+91-9409526893",
+      "mail":"pg_anc@iitk.ac.in",
+      "social": {
+        "facebook" : "https://www.facebook.com/khushbu.kishnani1"
+      }
+    }
+  ]
+}

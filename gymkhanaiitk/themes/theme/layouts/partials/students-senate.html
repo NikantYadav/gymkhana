@@ -1,0 +1,49 @@
+{{ $senate := .Site.Data.senate }}
+{{ $title := $senate.title }}
+{{ $description := $senate.description }}
+<section id="students_senate" class="py-5">
+	<div class="container" >
+		<div class ="row">
+			<div class ="col-md-9">
+				<h2 style="font-size:45px" class=" h1">{{ $title }}</h2>
+			</div>
+			<div class ="col-md-3" style="padding-bottom :15px">
+				<a href="https://students.iitk.ac.in/ss/home" target="_blank" rel="noopener">
+					<button type="button" class="btn btn-dark" >Visit Students' Senate Website</button>
+				</a>
+			</div>
+		</div>
+		<div>
+		{{ range $senate.description }}
+    			<p>{{ .description}}</p>
+    		{{ end }}
+		</div>
+		<div>
+			<div class="container">
+				<div class="row">
+					<div class = "col-md-9">
+						<ol>
+							{{ range $senate.listdescription }}
+    							<li>{{ .listdescription}}</li>
+    							{{ end }}
+						</ol>
+						<div>
+							{{ range $senate.moredescription }}
+    							<p>{{ .moredescription}}</p>
+    							{{ end }}
+						</div>
+					</div>
+					<div class = "col-md-3">
+						<div>
+						<center>
+							<img src="{{ .Site.BaseURL }}images/contact/{{ $senate.chairpersonimg}}" alt="{{ $senate.chairpersonname }}" class ="mb-3 teamAvatar shadow" aria-label = "{{ $senate.chairpersonname }}"height="200">
+							<p>{{ $senate.chairpersonname }}<br>Chairperson , Students' Senate</p>
+						</center>
+						</div>
+					</div>
+				</div> 
+			</div>
+		</div>
+		
+	</div>
+</section>

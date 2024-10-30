@@ -1,0 +1,31 @@
+{
+  "title" : "Councils",
+  "description" : "The four Councils along with cells carry out the executive responsibilities of the Students’ Gymkhana. Each council executes affairs pertaining to an overarching purpose. The Councils comprise Clubs, Hobby Groups, and Institute Teams, which cater to specific activities.",
+  "content" : [
+    
+    {
+      "logo" : "anc.webp",
+      "title" : "Academics and Career (AnC) Council",
+      "officialwebsite" : "https://anciitk.in/",
+      "description" : "AnC Council has been trusted with the responsibility of managing executive activities in two of the most crucial aspects of student life - Academics and Career. "
+    },
+    {
+      "logo" : "games.webp",
+      "title" : "Games and Sports (GnS) Council",
+      "officialwebsite" : "https://students.iitk.ac.in/sports/",
+      "description" : "GnS Council is the voice and face of IIT Kanpur sports community, responsible for management and conduction of all sporting events in the campus"
+    },
+    {
+      "logo" : "mnc.webp",
+      "title" : "Media and Cultural  (MnC) Council",
+      "officialwebsite" : "https://students.iitk.ac.in/mnc/",
+      "description" : "MnC Council organizes a plethora of  cultural activities spanning over the whole year."
+    },
+    {
+      "logo" : "snt.webp",
+      "title" : "Science and Technology  (SnT) Council",
+      "officialwebsite" : "https://students.iitk.ac.in/snt/",
+      "description" : "The SnT Council of IIT Kanpur is a community of science and technology enthusiasts who love to explore the unthinkable."
+    }
+  ]
+}

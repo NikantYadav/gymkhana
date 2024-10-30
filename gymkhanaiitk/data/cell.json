@@ -1,0 +1,51 @@
+{
+  "title" : "Cells",
+  "description" : "",
+  "activemembers" :[
+  	{
+      "name" : "Community Welfare Cell",
+      "description" : "",
+      "avatar" : "cwc.webp",
+      "officialwebsite" : "https://cwciitk.wordpress.com/"
+      
+    }
+  ],
+  "members" : [
+    
+    {
+      "name" : "Election Commission",
+      "description" : "",
+      "avatar" : "ec.webp",
+      "officialwebsite" : "https://students.iitk.ac.in/ec/"
+      
+    },
+    {
+      "name" : "Entrepreneurship Cell",
+      "description" : "",
+      "avatar" : "ecell.webp",
+      "officialwebsite" : "https://www.ecelliitk.org/"
+      
+    },
+    {
+      "name" : "Outreach Cell",
+      "description" : "",
+      "avatar" : "outreach.webp",
+      "officialwebsite" : "https://students.iitk.ac.in/outreach-cell/"
+      
+    },
+    {
+      "name" : "Public Policy and Opinion Cell",
+      "description" : "",
+      "avatar" : "ppoc.jpg",
+      "officialwebsite" : ""
+    },
+    {
+      "name" : "Vox Populi",
+      "description" : "",
+      "avatar" : "vox.webp",
+      "officialwebsite" : "https://voxiitk.com/"
+      
+    }
+    
+  ]
+}

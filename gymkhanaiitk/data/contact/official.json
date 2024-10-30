@@ -1,0 +1,26 @@
+{
+  "contact" : [
+    {
+      "name" : "Gopal Singh Parihar",
+      "image" : "gopal.webp",
+      "position": "DPM",
+      "council" : " Students Gymkhana Office",
+      "phone": "+91-9450908004",
+      "mail":"sac@iitk.ac.in",
+      "social": {
+       
+      }
+    },
+    {
+      "name" : "Ashish Srivastava",
+      "image" : "ashishoffice.webp",
+      "position": "Supervisor",
+      "council" : "Students Actvity Centre",
+      "phone": "+91-9307103686",
+      "mail":"saciitk1@gmail.com",
+      "social": {
+
+      }
+    }
+  ]
+}

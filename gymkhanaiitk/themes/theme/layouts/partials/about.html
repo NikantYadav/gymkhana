@@ -1,0 +1,50 @@
+{{ $about := .Site.Data.about }}
+
+{{ $title := $about.title }}
+{{ $description := $about.description }}
+<section id="about" class=" py-5">
+	<div class="container" >
+		<h2 style="font-size:45px" class=" h1">{{ $title }}</h2>
+		<div>
+		{{ range $about.description }}
+    			<p>{{ .description}}</p>
+    		{{ end }}
+    			
+    			<p id="extra_content" class="extra_content">{{ $about.moredescription }} </p>
+    			<button id="read_more" class="read_more btn-primary">Read More</button>
+		</div>
+	</div>
+</section>
+<style>
+@media (max-width: 650px) {
+  .extra_content {
+    display: none;
+  }
+  #read_more {
+    display: block;
+  }
+}
+
+.read_more  {
+  display: none;
+}
+
+.show {
+   display: block!important;
+}
+</style>
+<script>
+document.getElementById("read_more").addEventListener( 'click' , changeClass);
+
+function changeClass() {
+    var content = document.getElementById("extra_content");
+    var btn = document.getElementById("read_more");
+    content.classList.toggle('show');
+    
+    if (content.classList.contains("show")) {
+            btn.innerHTML = "Read Less";
+        } else {
+            btn.innerHTML = "Read More";
+        }
+}
+</script>
